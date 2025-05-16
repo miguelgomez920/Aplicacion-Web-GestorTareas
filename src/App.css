@@ -1,38 +1,62 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  color: white;
+  background-color: black;
+  font-family: system-ui;
+  margin-top: 40px;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+  font-size: 35px;
   text-align: center;
+  color: #d4f7d5; /* Un verde suave para dar un toque fresco */
+  text-transform: uppercase; /* Hace que el texto esté en mayúsculas */
+  letter-spacing: 5px; /* Mayor espacio entre letras */
+  font-weight: 700; /* Aumenta el grosor de las letras para mayor énfasis */
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 10px; /* Bordes redondeados para hacerlo más amigable */
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.freecodecamp-logo-contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.freecodecamp-logo{
+  width: 400px;
+  height: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tareas-lista-principal{
+  width: 600px;
+  min-height: 500px;
+  /* background: linear-gradient(135deg, #6e7dff, #9c4dff); */
+  background: radial-gradient(circle, rgba(142, 247, 206, 0.87) 20%, rgba(128, 248, 144, 0.6) 60%);
+  border: 2px solid #e0e0e0;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
 }
+

@@ -1,0 +1,60 @@
+/* Contenedor del formulario */
+.tarea-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaciado entre el input y el botón */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0; /* Borde sutil */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Campo de entrada */
+  .tarea-input {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Cuando el campo de entrada está enfocado */
+  .tarea-input:focus {
+    border-color: #3b82f6; /* Azul vibrante */
+    background-color: #ffffff; /* Blanco cuando está enfocado */
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5); /* Efecto de foco */
+  }
+  
+  /* Botón */
+  .tarea-boton {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #10b981; /* Verde suave */
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  /* Hover y activación del botón */
+  .tarea-boton:hover {
+    background-color: #059669; /* Verde más oscuro */
+    transform: translateY(-2px); /* Efecto de levantado */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra más intensa */
+  }
+  
+  .tarea-boton:active {
+    transform: translateY(0); /* Efecto al presionar */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
