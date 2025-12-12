@@ -1,6 +1,6 @@
 
 import './App.css';
-import freeCodeCamp from './imagenes/freecodecamp.png';
+
 // import Tarea from './componentes/Tarea.js';
 // import TareaFormulario from './componentes/TareaFormulario.js';
 import ListaDeTareas from './componentes/ListaDeTareas';
